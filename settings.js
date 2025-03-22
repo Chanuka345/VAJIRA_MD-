@@ -6,14 +6,14 @@ function convertToBool(text, fault = 'true') {
 
 
 module.exports = {
-SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=1DkkUSLS#zZezBIA6f5fvUQAFk4Wi463vM04hlC7nqKNOxIYRKuo' : process.env.SESSION_ID,
-OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '' : process.env.OWNER_NUMBER,
+SESSION_ID: process.env.SESSION_ID === undefined ? 'VAJIRA-MD=v6wQnICB#TV0-xqfi0dLpDQDJ8Snv1Iiu0wPKUvDQEBpg7p3HjlA' : process.env.SESSION_ID,
+OWNER_NUMBER: process.env.OWNER_NUMBER === undefined ? '94741469245' : process.env.OWNER_NUMBER,
 N_JID: process.env.N_JID=== undefined ? '‌': process.env.N_JID,    
 PREFIX: process.env.PREFIX || '.' ,
 POSTGRESQL_URL: process.env.POSTGRESQL_URL === undefined ? 'postgres://vajiratech_user:oSIFl2xmSojMZ0rkzdd0g0W6msuVTpNN@dpg-cpd7fjv109ks73e5gtig-a.frankfurt-postgres.render.com/vajiratech' : process.env.POSTGRESQL_URL,   
 MAX_SIZE: 500,
 MODE: process.env.MODE === undefined ? 'nonbutton' : process.env.MODE,
-STATUS_REPLY_MESSAGE: '𝐘𝐎𝐔𝐑 𝐒𝐓𝐀𝐓𝐔𝐒 𝐒𝐄𝐄𝐍 𝐉𝐔𝐒𝐓 𝐍𝐎𝐖 𝐁𝐘 𝐕𝐀𝐉𝐈𝐑𝐀 𝐌𝐃 ✅',    
-ALIVE:  process.env.ALIVE  || '> VAJIRA MD'  ,    
+STATUS_REPLY_MESSAGE: '𝐘𝐎𝐔𝐑 𝐒𝐓𝐀𝐓𝐔𝐒 𝐒𝐄𝐄𝐍 𝐉𝐔𝐒𝐓 𝐍𝐎𝐖 𝐁𝐘 𝐂𝐇𝐀𝐍𝐔𝐊𝐀-𝐌𝐃✅',    
+ALIVE:  process.env.ALIVE  || '> 𝐂𝐇𝐀𝐍𝐔𝐊𝐀-𝐌𝐃'  ,    
 DELETEMSGSENDTO : process.env.DELETEMSGSENDTO === undefined ? '' : process.env.DELETEMSGSENDTO        
 };
